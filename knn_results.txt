@@ -1,0 +1,29 @@
+KNN FINAL RESULTS
+==============================
+Best K: 13
+KNN accuracy: 85.14%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       happy       0.92      0.94      0.93        65
+         sad       0.80      0.80      0.80        30
+       angry       0.84      0.93      0.88        68
+    surprise       0.90      0.85      0.87        71
+     neutral       0.86      0.90      0.88        70
+     disgust       0.82      0.47      0.60        30
+        fear       0.71      0.83      0.77        36
+
+    accuracy                           0.85       370
+   macro avg       0.84      0.82      0.82       370
+weighted avg       0.85      0.85      0.85       370
+
+Confusion Matrix:
+Labels: ['happy', 'sad', 'angry', 'surprise', 'neutral', 'disgust', 'fear']
+[[61  0  0  2  2  0  0]
+ [ 1 24  0  0  3  0  2]
+ [ 1  0 63  0  0  3  1]
+ [ 1  1  1 60  0  0  8]
+ [ 1  2  2  2 63  0  0]
+ [ 1  2  8  0  4 14  1]
+ [ 0  1  1  3  1  0 30]]
